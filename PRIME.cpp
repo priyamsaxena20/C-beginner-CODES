@@ -30,3 +30,23 @@ int main()
 
     return 0;
 }
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+	int n;
+	cin>>n;
+	int check=2;
+	int cnt=0;
+	for(int i=1;i<=n;i++){
+		
+		if(n%i==0)
+		cnt=cnt++;
+	}
+	if(check==cnt)
+	cout<<"true";
+	else
+	cout<<"false";
+	
+}
